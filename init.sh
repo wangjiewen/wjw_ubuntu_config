@@ -59,4 +59,6 @@ ssh-keygen -t rsa -C "issinfonia@gmail.com"
 # 3. oh my zsh
 # refer in https://www.jianshu.com/p/9a5c4cb0452d
 # change ZSH_THEME="agnoster" in ~/.zsh.rc
+# 
+# 4. jetbrain && idea
 ####
