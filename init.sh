@@ -10,7 +10,7 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 # shadowsocks
 cp ./ss.json /home/sinfonia
 
-sudo ln -fs /lib/systemd/rc-local.service /etc/systemd/system/rc-local.service
+sudo ln -fs /lib/systemd/system/rc-local.service /etc/systemd/system/rc-local.service
 sudo echo '' >> /lib/systemd/rc-local.service
 sudo echo '[Install]' >> /lib/systemd/rc-local.service
 sudo echo 'WantedBy=multi-user.target' >> /lib/systemd/rc-local.service
